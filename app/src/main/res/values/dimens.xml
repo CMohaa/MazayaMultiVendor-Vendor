@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="view_width_small">1dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="product_list_thumbnail">240dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="list_product_name">14sp</dimen>
+    <dimen name="defaultMargin">8dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_x_small">4dp</dimen>
+    <dimen name="sort_filter_height">48dp</dimen>
+
+    <dimen name="image_left_margin_collapsed">16dp</dimen>
+    <dimen name="image_top_margin_collapsed">64dp</dimen>
+    <dimen name="title_left_margin_collapsed">72dp</dimen>
+    <dimen name="title_top_margin_collapsed">64dp</dimen>
+    <dimen name="subtitle_left_margin_collapsed">72dp</dimen>
+    <dimen name="subtitle_top_margin_collapsed">88dp</dimen>
+    <dimen name="intrinsic_padding">8dp</dimen>
+    <dimen name="large_intrinsic_padding">16dp</dimen>
+    <dimen name="small_intrinsic_padding">4dp</dimen>
+    <dimen name="filter">14sp</dimen>
+    <dimen name="sortSub">10sp</dimen>
+    <dimen name="sortMain">14sp</dimen>
+    <dimen name="halfMargin">4dp</dimen>
+    <dimen name="ProductWishIconSize">48dp</dimen>
+    <dimen name="new_comment_max_height">100dp</dimen>
+    <dimen name="new_comment_min_height">50dp</dimen>
+    <dimen name="corner_radius_rounded">25dp</dimen>
+    <dimen name="corner_radius_default">2dp</dimen>
+
+</resources>

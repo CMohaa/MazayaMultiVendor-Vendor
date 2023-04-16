@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mohaa.mazaya.dashboard">
+    <!--
+     needed for older devices -
+    used to check app background / foreground status
+    -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.mohaa.mazaya.dashboard.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.mohaa.mazaya.dashboard.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Controllers.activities_popup.ChatActivity"></activity>
+        <activity android:name=".Controllers.activities_popup.ChatSocketActivity" />
+        <activity android:name=".Controllers.activities_traders.TraderActivity" />
+        <activity android:name=".Controllers.activities_popup.CommentsActivity" />
+        <activity android:name=".Controllers.activities_products.SubProductsActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity android:name=".Auth.RegisterActivity" />
+        <activity android:name=".Auth.LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controllers.activities_traders.ProductsManagmentActivity" />
+        <activity android:name=".Controllers.activities_traders.AddTraderActivity" />
+        <activity android:name=".Controllers.activities_products.ProductsTraderActivity" />
+        <activity android:name=".Controllers.activities_products.AddProductActivity" />
+        <activity android:name=".Controllers.activities_products.IndividualProductActivity" />
+        <activity android:name=".Controllers.activities_popup.ImagePopupDetailsActivity" />
+        <activity android:name=".Controllers.activities_popup.SearchActivity" />
+        <activity android:name=".Controllers.activities_products.ProductsActivity" />
+        <activity android:name=".Controllers.activities_popup.ChartsActivity" />
+    </application>
+
+</manifest>

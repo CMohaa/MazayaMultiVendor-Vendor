@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView_">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandText" format="string" />
+        <attr name="collapseText" format="string" />
+    </declare-styleable>
+    <declare-styleable name="MultiSnapRecyclerView">
+        <attr name="msrv_gravity" format="enum">
+            <enum name="center" value="0" />
+            <enum name="start" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+        <attr name="msrv_interval" format="integer" />
+        <attr name="msrv_speed_ms_per_inch" format="float" />
+    </declare-styleable>
+    <declare-styleable name="RatingReviews">
+
+        <attr name="style" format="enum">
+            <enum name="style1" value="1" />
+            <enum name="style2" value="2" />
+        </attr>
+
+        <attr name="color" format="color" />
+        <attr name="rounded" format="boolean"/>
+        <attr name="gradiant" format="integer" />
+        <attr name="width" format="dimension" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="spaces" format="dimension" />
+        <attr name="max_value" format="integer" />
+        <attr name="show_label" format="boolean" />
+        <attr name="show_raters" format="boolean" />
+        <attr name="animation" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ShimmerFrameLayout">
+        <attr name="shimmer_clip_to_children" format="boolean"/>
+        <attr name="shimmer_colored" format="boolean"/>
+        <attr name="shimmer_base_color" format="color"/>
+        <attr name="shimmer_highlight_color" format="color"/>
+        <attr name="shimmer_base_alpha" format="float"/>
+        <attr name="shimmer_highlight_alpha" format="float"/>
+        <attr name="shimmer_auto_start" format="boolean"/>
+        <attr name="shimmer_duration" format="integer"/>
+        <attr name="shimmer_repeat_count" format="integer"/>
+        <attr name="shimmer_repeat_delay" format="integer"/>
+        <attr name="shimmer_repeat_mode" format="enum">
+            <enum name="restart" value="1"/>
+            <enum name="reverse" value="2"/>
+        </attr>
+        <attr name="shimmer_start_delay" format="integer"/>
+        <attr name="shimmer_direction" format="enum">
+            <enum name="left_to_right" value="0"/>
+            <enum name="top_to_bottom" value="1"/>
+            <enum name="right_to_left" value="2"/>
+            <enum name="bottom_to_top" value="3"/>
+        </attr>
+        <attr name="shimmer_dropoff" format="float"/>
+        <attr name="shimmer_fixed_width" format="dimension"/>
+        <attr name="shimmer_fixed_height" format="dimension"/>
+        <attr name="shimmer_intensity" format="float"/>
+        <attr name="shimmer_width_ratio" format="float"/>
+        <attr name="shimmer_height_ratio" format="float"/>
+        <attr name="shimmer_shape" format="enum">
+            <enum name="linear" value="0"/>
+            <enum name="radial" value="1"/>
+        </attr>
+        <attr name="shimmer_tilt" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="MaterialSearchBar">
+        //Base
+        <attr name="mt_speechMode" format="boolean"/>
+        <attr name="mt_maxSuggestionsCount" format="integer"/>
+        <attr name="mt_navIconEnabled" format="boolean"/>
+        <attr name="mt_roundedSearchBarEnabled" format="boolean"/> //(API 21+ , Will Revert To Default Shape On Lower
+        <attr name="mt_menuDividerEnabled" format="boolean"/>
+        <attr name="mt_dividerColor" format="color"/>
+        <attr name="mt_searchBarColor" format="color"/>
+
+        //Icons
+        <attr name="mt_menuIconDrawable" format="reference"/>
+        <attr name="mt_searchIconDrawable" format="reference"/>
+        <attr name="mt_speechIconDrawable" format="reference"/>
+        <attr name="mt_backIconDrawable" format="reference"/>
+        <attr name="mt_clearIconDrawable" format="reference"/>
+        <attr name="mt_navIconTint" format="color"/>
+        <attr name="mt_menuIconTint" format="color"/>
+        <attr name="mt_searchIconTint" format="color"/>
+        <attr name="mt_backIconTint" format="color"/>
+        <attr name="mt_clearIconTint" format="color"/>
+        <attr name="mt_navIconUseTint" format="boolean"/>
+        <attr name="mt_menuIconUseTint" format="boolean"/>
+        <attr name="mt_searchIconUseTint" format="boolean"/>
+        <attr name="mt_backIconUseTint" format="boolean"/>
+        <attr name="mt_clearIconUseTint" format="boolean"/>
+        <attr name="mt_borderlessRippleEnabled" format="boolean"/>
+
+        //Text
+        <attr name="mt_hint" format="string"/>
+        <attr name="mt_placeholder" format="string"/>
+        <attr name="mt_textColor" format="color"/>
+        <attr name="mt_hintColor" format="color"/>
+        <attr name="mt_placeholderColor" format="color"/>
+        <attr name="mt_textCursorTint" format="color"/>
+        <attr name="mt_leftTextSelectorDrawable" format="reference"/>
+        <attr name="mt_middleTextSelectorDrawable" format="reference"/>
+        <attr name="mt_rightTextSelectorDrawable" format="reference"/>
+        <attr name="mt_leftTextSelectorTint" format="color"/>
+        <attr name="mt_middleTextSelectorTint" format="color"/>
+        <attr name="mt_rightTextSelectorTint" format="color"/>
+        <attr name="mt_handlesTintEnabled" format="boolean"/>
+        <attr name="mt_highlightedTextColor" format="color"/>
+    </declare-styleable>
+</resources>

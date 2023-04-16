@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">MazayaDashboard</string>
+    <string name="app_title">Mazaya</string>
+    <string name="facebook_app_id">537112297134777</string>
+    <string name="press_once_again_to_exit">Press once again to exit</string>
+    <string name="ok">OK</string>
+    <string name="noconnection">Kindly connect to a WIFI network or enable Mobile Data</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait while we check your credentials.</string>
+
+    <string name="login">Login</string>
+    <string name="register_now">Register Now</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="register">Register</string>
+    <string name="login_now">Login Now</string>
+    <string name="required">Required</string>
+    <string name="signup_failed">Register Failed</string>
+    <string name="signin_failed">Signin Failed</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="app_settings">App Settings</string>
+    <string name="ads_settings">Ads Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="traders_managment">Trader Management</string>
+    <string name="Products_Managment">Products Managment</string>
+    <string name="track_orders">Track Orders</string>
+    <string name="add_ads">Add Ads</string>
+    <string name="add_promo">Add Promo</string>
+    <string name="view_charts">View Charts</string>
+    <string name="create_your_online_shop">Create Online Shop</string>
+    <string name="unable_to_fetch_image">Unable To Fetch Image</string>
+    <string name="enter_desc">Enter Description</string>
+    <string name="enter_phone">Enter phone Number</string>
+    <string name="enter_location">Enter Your Location</string>
+    <string name="enter_promo_code">Enter Promo Code (Optional)</string>
+    <string name="enter_categories">Enter Categories</string>
+    <string name="enter_disc">Enter Discount (Optional)</string>
+    <string name="category">Category:</string>
+    <string name="activity_add_Catagories_to_Menu">Added Categories</string>
+    <string name="add_categories">Add Categories</string>
+    <string name="add_shop">Add Shop</string>
+    <string name="sort">SORT</string>
+    <string name="filter">FILTER</string>
+    <string name="add_traders_activity_catagories">categoriest is not present in the list</string>
+    <string name="add_product">Add Product</string>
+    <string name="permisson_denied">Permission denied to read your External storage</string>
+    <string name="enter_short_name">Enter Short Name [Max Length 32]</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="enter_barcode">Enter Barcode</string>
+    <string name="company">Company (Optional)</string>
+    <string name="pack">Package (Optional)</string>
+    <string name="status">Status (Optional)</string>
+    <string name="department">Department (Optional)</string>
+
+    <string name="signup_free">Signup ٍFree</string>
+    <string name="publish_your_p">Publish your product</string>
+    <string name="icrease_your_profit">Increase your profits</string>
+    <string name="publish_your_products">Publish your product</string>
+    <string name="Loading">Loading</string>
+    <string name="best_value">Best Value</string>
+    <string name="promate_this_product">Promote This Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="edit_trader">Edit Trader Info</string>
+    <string name="edit_shop">Edit Shop</string>
+    <string name="add_members_activity_catagories">categoriest is not present in the list</string>
+    <string name="promate_this_trader">Promate This Trader</string>
+    <string name="clear">Clear All</string>
+    <string name="apply">Apply</string>
+    <string name="filters">Filters</string>
+    <string name="main_category">Main Category</string>
+    <string name="sub_category">Sub Category</string>
+
+    <string name="size">Size</string>
+    <string name="color">Color</string>
+    <string name="quantity_label">Quantity</string>
+    <string name="desc">Description</string>
+    <string name="specifications">Specifications</string>
+    <string name="offer_details">Offer Details</string>
+    <string name="sold_by">Sold by</string>
+    <string name="enjoy_hassle_free_returns_with_this_offer">Enjoy hassle free returns with this offer</string>
+    <string name="seller_note">Seller note</string>
+    <string name="country_of_origin_egypt">Country of Origin : Egypt</string>
+    <string name="all_prices_include_vat">All prices include VAT</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="buy">Buy</string>
+    <string name="collapse_text_label">Show Less</string>
+    <string name="expand_text_label">Show More</string>
+    <string name="details">Details</string>
+    <string name="people_also_bought">People also bought</string>
+    <string name="see_all">See All</string>
+    <string name="off">OFF</string>
+    <string name="egypt_currency">LE.</string>
+    <string name="sponsored">Sponsored</string>
+    <string name="people_also_viewed">People also viewed</string>
+
+    <string name="string_internet_connection_not_available">Internet Connection Not Available</string>
+    <string name="string_some_thing_wrong">Something went wrong.</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="chooser_title">Choose Files</string>
+    <string name="reviews">Reviews</string>
+    <string name="internet_connection_failed">No internet connection</string>
+    <string name="just_now">Just Now</string>
+    <string name="min_ago">a min ago</string>
+    <string name="minites_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="days_ago">days ago</string>
+    <string name="hour_ago">an hour ago</string>
+    <string name="yesterday">yesterday</string>
+    <string name="today">Today</string>
+
+    <string name="duration_minutes_shortest">%1$d m</string>
+    <string name="duration_hours_shortest">%1$d h</string>
+    <string name="duration_days_shortest">%1$d d</string>
+    <string name="duration_week_shortest">%1$d w</string>
+    <string name="comment_text_hint">Enter your comment …</string>
+    <string name="send_comment_button_label">Send</string>
+
+    <string name="action_search">Search</string>
+    <string name="what_are_u_looking_for">What are you looking for ?</string>
+
+    <string name="item_add_wishlist">Item Added To Wish List</string>
+    <string name="item_rem_wishlist">Item Removed From Wish List</string>
+    <string name="show">Show</string>
+    <string name="total_sales_chart">Total Sales Chart</string>
+    <string name="total_orders_chart">Total Orders Chart</string>
+    <string name="orders_case_chart">Orders Case Chart</string>
+    <string name="view_count_charts">View Count Chart</string>
+    <string name="views">Views</string>
+    <string name="total">Total</string>
+    <string name="product_reviews">Product Reviews Count</string>
+    <string name="product_quantity">Products Quantity</string>
+    <string name="chats">Charts</string>
+</resources>

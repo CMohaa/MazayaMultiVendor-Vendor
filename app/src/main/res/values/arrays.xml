@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="examples_shop">
+        <item>@string/signup_free</item>
+        <item>@string/publish_your_p</item>
+        <item>@string/icrease_your_profit</item>
+        <item>@string/publish_your_products</item>
+
+    </string-array>
+    <string-array name="Trader_type">
+        <item>Grocery</item>
+        <item>Clothing Shop</item>
+        <item>Baby</item>
+        <item>Mobiles</item>
+        <item>Electronic Shop</item>
+        <item>House Devices</item>
+        <item>Beauty Shop</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Department_type">
+        <item>Drink</item>
+        <item>Food</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Status_type">
+        <item>New</item>
+        <item>Used</item>
+    </string-array>
+    <string-array name="Package_type">
+        <item>pieces</item>
+        <item>package</item>
+    </string-array>
+    <string-array name="Company_type">
+        <item>Kamara</item>
+        <item>Others</item>
+    </string-array>
+</resources>

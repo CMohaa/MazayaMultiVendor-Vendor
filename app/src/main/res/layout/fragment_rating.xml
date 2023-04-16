@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controllers.activities_popup.CommentsActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/reviews_comment"
+        android:layout_below="@+id/rating_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/reviews"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@+id/reviews_comment"
+        android:id="@+id/commentsParentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingLeft="@dimen/large_intrinsic_padding"
+        android:paddingRight="@dimen/large_intrinsic_padding">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/commentsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:listitem="@layout/comment_list_item" />
+
+        <ProgressBar
+            android:id="@+id/commentsProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/warningCommentsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/intrinsic_padding"
+            android:text="@string/internet_connection_failed"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rating_panel"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RatingBar
+
+                android:id="@+id/ratingBar"
+                style="@android:style/Widget.Material.Light.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:numStars="5"
+                android:progressTint="#333333"
+                android:rating="0"
+                android:stepSize="1"
+                app:layout_constraintVertical_bias="0.07999998"
+                />
+            <TextView
+                android:id="@+id/rating_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="2dp"
+                android:text="0 Reviews"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="@+id/ratingBar"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+                android:layout_marginLeft="8dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
